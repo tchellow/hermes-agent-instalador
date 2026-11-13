@@ -2,6 +2,17 @@
 
 Um script que instala o [Hermes Agent](https://github.com/NousResearch/hermes-agent) num container Docker isolado e o conecta a um modelo **DeepSeek pelo OpenRouter** e a um **bot próprio no Telegram**.
 
+**Opção 1: baixar a versão publicada** (em [Releases](https://github.com/tchellow/hermes-agent-instalador/releases)), conferindo a integridade:
+
+```bash
+mkdir -p ~/instalador-hermes && cd ~/instalador-hermes
+curl -fsSLO https://github.com/tchellow/hermes-agent-instalador/releases/latest/download/instalar-hermes.sh
+curl -fsSLO https://github.com/tchellow/hermes-agent-instalador/releases/latest/download/instalar-hermes.sh.sha256
+sha256sum -c instalar-hermes.sh.sha256 && chmod +x instalar-hermes.sh && ./instalar-hermes.sh
+```
+
+**Opção 2: clonar o repositório**
+
 ```bash
 git clone https://github.com/tchellow/hermes-agent-instalador.git
 cd hermes-agent-instalador
