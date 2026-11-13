@@ -169,3 +169,7 @@ rm -rf ~/hermes   # apaga configuração, memória e chaves
 ## Créditos
 
 O [Hermes Agent](https://github.com/NousResearch/hermes-agent) é um projeto da Nous Research. Este repositório contém só o script de instalação e não tem ligação com a Nous Research.
+
+## Licença
+
+[MIT](LICENSE). O Hermes Agent, baixado pelo script, tem a licença própria do projeto original.
